@@ -4,4 +4,4 @@ MAINTAINER "baozi"
 
 ADD tomcat /tomcat
 
-ENTRYPOINT /tomcat/startup.sh
+ENTRYPOINT /tomcat/bin/catalina.sh run
